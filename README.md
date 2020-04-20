@@ -14,7 +14,7 @@
 * Type `ssh-keygen -t rsa -b 2048` and you will see:
 ```  
 Generating public/private rsa key pair.
-Enter file in which to save the key (/home/fan/.ssh/id_rsa):
+Enter file in which to save the key (/home/kathy/.ssh/id_rsa):
 ```
 * Just press __enter__. And you will see:
 ```
@@ -27,10 +27,10 @@ Enter same passphrase again:
 ```
 * Press __enter__ and you will see:
 ```
-Your identification has been saved in /home/fan/.ssh/id_rsa.
-Your public key has been saved in /home/fan/.ssh/id_rsa.pub.
+Your identification has been saved in /home/kathy/.ssh/id_rsa.
+Your public key has been saved in /home/kathy/.ssh/id_rsa.pub.
 The key fingerprint is:
-SHA256:Gso6hYqlBX5ZniCwHGcO0O1K5b1VRPSiHiI6UB8jCnI fan@fan-VirtualBox
+SHA256:Gso6hYqlBX5ZniCwHGcO0O1K5b1VRPSiHiI6UB8jCnI kathy@kathy-VirtualBox
 The key's randomart image is:
 +---[RSA 2048]----+
 |o. .     ++      |
@@ -275,7 +275,7 @@ ssh -A -L8999:Localhost:8999 ec2-user@[Public DNS]
 
 * Here is an example of different port numbers:
 ```
-FandeMacBook-Pro:~ fanliang$ ssh -A -9001:Localhost:8999 ec2-user@ec2-54-172-187-146.compute-1.amazonaws.com
+kathydeMacBook-Pro:~ kathyzou$ ssh -A -9001:Localhost:8999 ec2-user@ec2-54-172-187-146.compute-1.amazonaws.com
 Last login: Wed Jul  3 15:40:25 2019 from amazon.com.ear2.newyork1.level3.net
 
        __|  __|_  )
